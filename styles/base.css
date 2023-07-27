@@ -1,0 +1,33 @@
+footer {
+    background-color: rgba(0, 0, 0, .2);
+    padding: 10px;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, .2) !important;
+}
+
+.nav-link {
+    color: azure !important;
+}
+
+.nav-link:hover {
+    color: yellow !important;
+}
+
+.titulo-projeto-3e::after {
+    content: '3ºE';
+    display: inline-block;
+    font-size: 1rem;
+    background-color: yellow;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    transform: rotate(15deg);
+}
