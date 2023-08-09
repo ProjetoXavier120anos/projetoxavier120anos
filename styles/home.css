@@ -1,3 +1,7 @@
+.card-container > div {
+    gap: 2rem;
+}
+
 .card {
     width: 18rem;
 }
@@ -6,5 +10,9 @@
     .card {
         width: 98%;
         margin: 0 auto;
+    }
+
+    .card-container > div {
+        gap: 10px;
     }
 }
