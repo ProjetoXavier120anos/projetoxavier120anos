@@ -14,6 +14,10 @@ main > div:not(.card-container) {
     color: white
 }
 
+img {
+    border-radius: 10px;
+}
+
 /* Estilos comuns para a barra de navegação (navbar) e o rodapé (footer) */
 .navbar,
 .footer {
