@@ -1,11 +1,74 @@
-footer {
-    background-color: rgba(0, 0, 0, .2);
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    background-color: #082f49;
+}
+
+main {
+    flex-grow: 2;
+}
+
+main > div:not(.card-container) {
+    padding: 0 2rem;
+    color: white
+}
+
+/* Estilos comuns para a barra de navegação (navbar) e o rodapé (footer) */
+.navbar,
+.footer {
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 10px;
     color: white;
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, .2) !important;
+    /* Sobrescreve a cor de fundo para a barra de navegação (navbar) */
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:hover, 
+.navbar-toggler:active, 
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar-toggler-icon > .navbar-toggler-icon-bar {
+    display: block;
+    height: 3px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    transform: translateY(-6px);
+}
+
+.navbar-toggler-icon > .navbar-toggler-icon-bar::after, 
+.navbar-toggler-icon > .navbar-toggler-icon-bar::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.navbar-toggler-icon > .navbar-toggler-icon-bar::after {
+    top: 6px;
+}
+
+.navbar-toggler-icon > .navbar-toggler-icon-bar::before {
+    top: 12px;
 }
 
 .nav-link {
