@@ -9,9 +9,16 @@ main {
     flex-grow: 2;
 }
 
+main:not(.main-home) {
+    display: flex;
+    justify-content: center;
+}
+
 main > div:not(.card-container) {
     padding: 0 2rem;
-    color: white
+    color: white;
+    width: 100%;
+    max-width: 780px;
 }
 
 img {
