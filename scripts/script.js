@@ -5,21 +5,6 @@ let cards = [
         imagem: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6SAfrqqtkWyFQSNKovzbjlp8ZUfkk5BozVjeyVXyKY7eazMckrxWYGYA-qW9W_lmCmrokMhDqamvQF0WA1PgQfsdGOPFPsjPIKGVV5ndlP93LvlHIsf2UubZmtlK9a4MaLLw7PDuebTlPsAubBs2NWJOGUPDhHyypUMiWV_GgGadsu4boUqPi-Z6vqg/s778/Tsoro%20Yematatu%202.jpg',
         link: '/jogo/tsoro-yematatu/'
     },
-
-    
-      {
-        titulo: 'TEste',
-        descricao: 'essa bricadeira é de teste',
-        imagem: 'https://i.pinimg.com/736x/17/0a/81/170a815040a32fcc2f596c59c9284c15.jpg',
-        link: '/jogo/teste/'
-      },
-    
-      {
-        titulo: 'Outro teste',
-        descricao: 'Teste',
-        imagem: 'https://drive.google.com/uc?export=download&id=15C6qYE9xE9WvXbnZcRLLt1FgqbW3yrYY',
-        link: '/jogo/outro-teste/'
-      },
     //{...}
     ]
   function criarCard(titulo, descricao, imagem, link) {
