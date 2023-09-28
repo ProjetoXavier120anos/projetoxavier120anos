@@ -17,7 +17,6 @@ let cards = [
     ]
   function criarCard(titulo, descricao, imagem, link) {
     let cardInnerHTML = `
-    <div class="row row-cols-3">
     <div class="card col">
       <img src="${imagem}" class="card-img-top" alt="${titulo}">
       <div class="card-body">
@@ -28,14 +27,13 @@ let cards = [
         <a href="${link}" class="btn btn-primary">Como jogar?</a>
       </div>
     </div>
-  </div>
     `;
 
     return cardInnerHTML;
 }
 
 window.addEventListener('load', () => {
-    const cardContainer = document.querySelector('.card-container');
+    const cardContainer = document.querySelector('.card-container > div');
 
     cards.forEach(card => {
         cardContainer.innerHTML += criarCard(card.titulo, card.descricao, card.imagem, card.link);

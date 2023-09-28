@@ -1,16 +1,24 @@
-.card-container {
-    display: flex;
-    gap: 50px;
-    flex-wrap: wrap;
-}
-
 .card-container > div {
     gap: 2rem;
 }
 
 .card {
     width: 18rem;
-    max-height: 400px;
+    height: 400px;
+}
+
+.card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card .card-body {
+  height: 200px;
+}
+
+.card .card-body .card-text {
+  height: 50%;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
