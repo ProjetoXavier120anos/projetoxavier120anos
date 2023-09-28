@@ -13,6 +13,13 @@ let cards = [
         imagem: 'https://i.pinimg.com/736x/17/0a/81/170a815040a32fcc2f596c59c9284c15.jpg',
         link: '/jogo/teste/'
       },
+    
+      {
+        titulo: 'Outro teste',
+        descricao: 'Teste',
+        imagem: 'https://drive.google.com/uc?export=download&id=15C6qYE9xE9WvXbnZcRLLt1FgqbW3yrYY',
+        link: '/jogo/outro-teste/'
+      },
     //{...}
     ]
   function criarCard(titulo, descricao, imagem, link) {
