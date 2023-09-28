@@ -6,6 +6,13 @@ let cards = [
         link: '/jogo/tsoro-yematatu/'
     },
 
+    
+      {
+        titulo: 'TEste',
+        descricao: 'essa bricadeira é de teste',
+        imagem: 'https://i.pinimg.com/736x/17/0a/81/170a815040a32fcc2f596c59c9284c15.jpg',
+        link: '/jogo/teste/'
+      },
     //{...}
     ]
   function criarCard(titulo, descricao, imagem, link) {
