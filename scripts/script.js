@@ -15,6 +15,16 @@ número de peças.`,
         imagem: `https://image.winudf.com/v2/image1/Y29tLm1pbGxnYW1lLmFsaWduaXRfaWNvbl8xNTc3OTgyNDc4XzAxMw/icon.png?w=&fakeurl=1`,
         link: `/jogo/morabaraba/`
       },
+    
+      {
+        titulo: `Moraboraba`,
+        descricao: `Morabaraba é um jogo de estratégia com tabuleiro. É uma variação
+do jogo inglês “Morris”, introduzida na África pelos colonizadores britânicos,
+tendo adquirido na variante africana as linhas diagonais e o aumento no
+número de peças`,
+        imagem: `https://drive.google.com/uc?export=download&id=1_Pe7-eZBFoLkg1QgVRCT7FTHMNmhFwm0`,
+        link: `/jogo/moraboraba/`
+      },
     //{...}
     ]
   function criarCard(titulo, descricao, imagem, link) {
