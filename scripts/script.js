@@ -15,6 +15,14 @@ número de peças.`,
         imagem: `https://image.winudf.com/v2/image1/Y29tLm1pbGxnYW1lLmFsaWduaXRfaWNvbl8xNTc3OTgyNDc4XzAxMw/icon.png?w=&fakeurl=1`,
         link: `/jogo/morabaraba/`
       },
+    
+      {
+        titulo: `MEHEN `,
+        descricao: `Mehen é um dos jogos mais antigos do mundo, tendo sido encontrados vestígios de seu tabuleiro em escavações na pirâmide de Sacara, Egito, datados de 3000 a.C. O jogo possui aparência de uma cobra enrolada e seu nome é também o de uma divindade cobra da religião egípcia antiga.
+Mehen é um elemento presente na cultura egípcia; refere-se a um deus cobra que protegia Rá durante a jornada em que o deus tinha que lutar ou escapar de Apep, a grande serpente do mundo inferior (em algumas variações da lenda, Seti era quem protegia Rá. Pode ser que a adoração de Mehem tenha fundido com a de Seti). Mehen também se referia a um jogo de tabuleiro jogado pelos egípcios, mas ninguém sabe quem veio primeiro, o deus ou o jogo.O jogo era popular entre 3000 AC até 2300 AC, então proibido sob causa desconhecida, e retornou em 700 AC.`,
+        imagem: `https://drive.google.com/uc?export=download&id=1P-grzKNKUAbfwabUSHL6BZLkSstRwNPF`,
+        link: `/jogo/mehen-/`
+      },
     //{...}
     ]
   function criarCard(titulo, descricao, imagem, link) {
