@@ -13,6 +13,13 @@ Mehen é um elemento presente na cultura egípcia; refere-se a um deus cobra que
         imagem: `https://drive.google.com/uc?export=download&id=1P-grzKNKUAbfwabUSHL6BZLkSstRwNPF`,
         link: `/jogo/mehen/`
       },
+    
+      {
+        titulo: `Shisima`,
+        descricao: `Shisima é um jogo de estratégia tradicional originário do Quênia. É um jogo de tabuleiro que tem sido apreciado e passado de geração em geração por comunidades quenianas. O jogo oferece desafios estratégicos emocionantes, que requerem pensamento tático e planejamento cuidadoso para vencer.`,
+        imagem: `https://drive.google.com/uc?export=download&id=1b3au9dypXAy58qO20y7aaDi_WQfs3dy5`,
+        link: `/jogo/shisima/`
+      },
     //{...}
     ]
 
