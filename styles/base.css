@@ -4,6 +4,11 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+pre {
+    white-space: pre-line;
+    text-align: justify;
+}
+
 body {
     display: flex;
     flex-direction: column;
