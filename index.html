@@ -51,7 +51,7 @@
       </div>
     </div>
 
-
+    
   </main>
 
   <footer class="footer">
@@ -61,7 +61,16 @@
     </div>
   </footer>
 
+  <dialog class="dialog-qrcode">
+    <h3>QR Code</h3>
+    <canvas id="qrcanvas" width="300" height="300"></canvas>
+    <br/>
+    <button type="button" class="btn btn-primary" onclick="downloadCanvas()">Download</button>
+    <button type="button" class="btn btn-danger" onclick="QrModal()">fechar</button>
+  </dialog>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./scripts/qrencoder.js"></script>
   <script src="./scripts/script.js"></script>
 </body>
 
