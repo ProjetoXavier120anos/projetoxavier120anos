@@ -44,6 +44,13 @@ número de peças. `,
         imagem: `https://drive.google.com/uc?export=download&id=11sD2K-iLDpLENhR67keA1NWNbyuY2w6L`,
         link: `/jogo/amarelinha-africana/`
       },
+    
+      {
+        titulo: `dará`,
+        descricao: ` é um jogo de estratégia para dois jogadores ou duas equipes e, alternadamente, cada jogador posiciona uma peça de cada vez no tabuleiro até completar o total das 24 peças`,
+        imagem: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN_K6bVHIRlG2vl5Ymt8xeDU_gapZ2KbHy6Q&usqp=CAU`,
+        link: `/jogo/dará/`
+      },
     //{...}
     ]
 
