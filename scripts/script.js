@@ -30,6 +30,13 @@ número de peças. `,
         imagem: `https://drive.google.com/uc?export=download&id=1Txyyn-bJFip9B5z_-U5G0F59tNZFctyo`,
         link: `/jogo/morabaraba/`
       },
+    
+      {
+        titulo: `Borboleta`,
+        descricao: `A Borboleta é um jogo de tabuleiro, da família dos jogos de tabuleiro Alquerque, também chamado Gulugufe (borboleta na língua tonga), na Índia e em Bangladesh é conhecido como Lau kati kata. O nome "Borboleta" se deve provavelmente ao desenho do tabuleiro, com o formato de uma borboleta.`,
+        imagem: `https://img.elo7.com.br/product/zoom/2BC3831/borboleta-jogo-de-tabuleiro-africano-jogo-de-tabuleiro-em-madeira.jpg`,
+        link: `/jogo/borboleta/`
+      },
     //{...}
     ]
 
