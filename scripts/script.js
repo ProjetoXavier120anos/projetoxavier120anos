@@ -37,6 +37,13 @@ número de peças. `,
         imagem: `https://img.elo7.com.br/product/zoom/2BC3831/borboleta-jogo-de-tabuleiro-africano-jogo-de-tabuleiro-em-madeira.jpg`,
         link: `/jogo/borboleta/`
       },
+    
+      {
+        titulo: `Amarelinha Africana`,
+        descricao: `A amarelinha africana é entendida como um jogo, ou uma brincadeira, com origens em Moçambique, um país do continente africano. Ela se caracteriza por ser uma brincadeira ritmada, ou seja, segue uma constância regular na realização dos movimentos. Desse modo, usa acompanhamentos musicais que demarcam seu ritmo.`,
+        imagem: `https://drive.google.com/uc?export=download&id=11sD2K-iLDpLENhR67keA1NWNbyuY2w6L`,
+        link: `/jogo/amarelinha-africana/`
+      },
     //{...}
     ]
 
