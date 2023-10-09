@@ -20,6 +20,16 @@ Mehen é um elemento presente na cultura egípcia; refere-se a um deus cobra que
         imagem: `https://drive.google.com/uc?export=download&id=1b3au9dypXAy58qO20y7aaDi_WQfs3dy5`,
         link: `/jogo/shisima/`
       },
+    
+      {
+        titulo: `Morabaraba`,
+        descricao: `Morabaraba é um jogo de estratégia com tabuleiro. É uma variação
+do jogo inglês “Morris”, introduzida na África pelos colonizadores britânicos,
+tendo adquirido na variante africana as linhas diagonais e o aumento no
+número de peças. `,
+        imagem: `https://drive.google.com/uc?export=download&id=1Txyyn-bJFip9B5z_-U5G0F59tNZFctyo`,
+        link: `/jogo/morabaraba/`
+      },
     //{...}
     ]
 
